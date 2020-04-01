@@ -1,0 +1,396 @@
+.header {
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.1);
+    .nav.el-row {
+        width: 100%;
+        height: 40px;
+        background-color: #F8F8F8;
+        .top-bar {
+            width: 1190px;
+            margin: 0 auto;
+            z-index: 9999;
+            height: 40px;
+            line-height: 40px;
+            .geo{
+                height: 40px;
+                line-height: 40px;
+                .position {
+                    float: left;
+                    font-size: 12px;
+                    color: #666;
+                    .changecity {
+                        font-size: 12px;
+                        color: #666;
+                        border: 1px solid #E5E5E5;
+                        border-radius: 2px;
+                        background: #F4F4F4;
+                        margin: 0px 4px;
+                        padding: 0px 2px;
+                        &:hover {
+                            color: #FE8C00;
+                        }
+                    };
+                    a {
+                        font-size: 12px;
+                        color: #999;
+                        margin: 0px 4px;
+                        &:hover {
+                            color: #FE8C00;
+                        }
+                    };
+                }
+                .login-register {
+                    float: left;
+                    .login {
+                        font-size: 12px;
+                        color: #FE8C00;
+                        margin-left: 25px;
+                    };
+                    .register {
+                        font-size: 12px;
+                        color: #999;
+                        margin-left: 10px;
+                        &:hover {
+                            color: #FE8C00;
+                        }
+                    }
+                }
+                .userName-exit {
+                    float: left;
+                    .userName {
+                        font-size: 12px;
+                        color: #FE8C00;
+                        margin-left: 25px;
+                    };
+                    .exit {
+                        font-size: 12px;
+                        color: #999;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .my-nav {
+                .nav {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+            
+                    .nav-list {
+                        position: relative;
+                        width: 78px;
+                        padding: 12px 14px;
+                        box-sizing: border-box;
+                        border-left: 1px solid transparent;
+                        border-right: 1px solid transparent;
+            
+                        a {
+                            display: block;
+                            font-size: 12px;
+                            color: #999;
+                            width: 48px;
+                            height: 16px;
+                            line-height: 16px;
+                            text-align: center;
+            
+                            &:hover {
+                                color: #FE8C00;;
+                            }
+                        }
+            
+                        &.nav-list:hover {
+                            background: #fff;
+                            border-color: #E5E5E5;
+            
+                            .hid {
+                                display: block;
+                            }
+                        }
+                        &.iphone-app:hover {
+                            background-color: #F8F8F8;
+                        }
+            
+                        .hid {
+                            position: absolute;
+                            top: 40px;
+                            left: -1px;
+                            display: none;
+                            width: 78px;
+                            padding-top: 0px;
+                            border: 1px solid #E5E5E5;
+                            border-top: none;
+                            box-sizing: border-box;
+                            background-color: #fff;
+                            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+            
+                            li {
+                                padding: 9px 14px;
+            
+                                a {
+                                    text-align: center;
+                                }
+                            }
+                        }
+                        .store-center-dl {
+                            width: 106px;
+                            position: absolute;
+                            top: 40px;
+                            left: -29px;
+                            dd {
+                                padding: 9px 0px;
+                                a {
+                                    display: block;
+                                    text-align: center;
+                                    width: 100px;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                        .rule-dl {
+                            dd {
+                                padding: 9px 0px;
+                                a {
+                                    width: 78px;
+                                }
+                            }
+                        }
+                        .subContainer {
+                            width: 1200px;
+                            position: absolute;
+                            left: -1123px;
+                            box-sizing: border-box;
+                            border-radius: 4px;
+                            border-top-right-radius: 0;
+                            padding: 30px 36px 36px 47px;
+                            dl {
+                                float: left;
+                                margin-right: 47px;
+                            }
+                            .hotel-trip {
+                                width: 234px;
+                                text-align: center;
+                                dt {
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: #222;
+                                    font-weight: 500;
+                                }
+                                dd {
+                                    width: 33%;
+                                    float: left;
+                                    padding: 5px 0;
+                                    a {
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .eat {
+                                width: 156px;
+                                text-align: center;
+                                dt {
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: #222;
+                                    font-weight: 500;
+                                }
+                                dd {
+                                    width: 50%;
+                                    float: left;
+                                    padding: 5px 0;
+                                    a {
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            .watch-movies {
+                                width: 90px;
+                                text-align: center;
+                                dt {
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: #222;
+                                    font-weight: 500;
+                                }
+                                dd {
+                                    padding: 5px 0;
+                                    a {
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            .iphone-app {
+                                float: right;
+                                text-align: center;
+                                dt {
+                                    margin-bottom: 26px;
+                                    font-size: 14px;
+                                    color: #222;
+                                    font-weight: 500;
+                                }
+                                dd {
+                                    margin: 0 8px;
+                                    float: left;
+                                    width: 60px;
+                                    height: 60px;
+                                    a {
+                                        display: block;
+                                        width: 60px;
+                                        height: 60px;
+                                        img {
+                                            width: 60px;
+                                            height: 60px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .iphone-app {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+    .search {
+        padding-bottom: 35px;
+        width: 1190px;
+        margin: 0 auto;
+        .el-row {
+            height: 122px;
+            .mt-logo {
+                padding: 28px 60px 40px 0;
+                width: 220px;
+                box-sizing: content-box;
+                height: 54px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                a {
+                    display: block;
+                    width: 126px;
+                    height:46px;
+                    img {
+                        width: 126px;
+                        height: 46px;
+                    }
+                }
+            }
+            .search-wrap {
+                padding-top: 28px;
+                position: absolute;
+                left: 50%;
+                top: 0px;
+                transform: translate(-50%);
+                width: 550px;
+                height: 93px;
+                z-index: 100;
+                .search-btn {
+                    width: 550px;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    .el-input {
+                        // display: inline-block;
+                        width: 85.5%;
+                        input {
+                            border-top-right-radius: 0px;
+                            border-bottom-right-radius: 0px;
+                            border-right: none;
+                            &:focus {
+                                border-color: #DCDFE6;
+                            }
+                        }
+                    }
+                    .btn {
+                        width: 14.5%;
+                        height: 100%;
+                        background-color: #FFc300;
+                        border: none;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        .el-icon-search {
+                            font-size: 16px;
+                            color: #000;
+                            font-weight: bolder;
+                        }
+                    }
+                }
+                .hot-place {
+                    width: 550px;
+                    padding-top: 8px;
+                    font-size: 12px;
+                    height: 25px;
+                    box-sizing: border-box;
+                    padding-left: 12px;
+                    display: flex;
+                    flex-direction: row;
+                    li {
+                        margin-right: 10px;
+                        margin-bottom: 3px;
+                    }
+                    a {
+                        color: #999;
+                    }
+                }
+                .hotSearch {
+                    position: absolute;
+                    top: 69px;
+                    width: 85.5%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    background: #fff;
+                    border: 1px solid #E5E5E5;
+                    border-top: none;
+                    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+                    border-bottom-left-radius: 4px;
+                    border-bottom-right-radius: 4px;
+                    dt {
+                        padding-bottom: 5px;
+                        color: #999;
+                        font-size: 12px;
+                        text-align: left;
+                        font-weight: bold;
+                    }
+                    dd {
+                        display: inline-block;
+                        margin-right: 10px;
+                        a {
+                            font-size: 12px;
+                            color: #666;
+                            &:hover {
+                                color: #FE8C00;
+                            }
+                        }
+                    }
+                }
+                .huoguo {
+                    position: absolute;
+                    top: 69px;
+                    width: 85.5%;
+                    box-sizing: border-box;
+                    background: #fff;
+                    border: 1px solid #E5E5E5;
+                    border-top: none;
+                    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+                    border-bottom-left-radius: 4px;
+                    border-bottom-right-radius: 4px;
+                    li {
+                        a {
+                            color: #333;
+                            font-size: 12px;
+                            padding: 3px 10px;
+                            &:hover {
+                                color: #FE8C00;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
